@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-left: 130px;
+  padding-top: 50px;
+  font-family: Arial;
+}
+h1 {
+  color: rgba(0, 0, 0, 0.74);
+}
+h2 {
+  color: green;
+}
+img {
+  height: 200;
+  width: 200px;
+}
+
+/* Navbar code */
+li a {
+  display: block;
+  padding-right: 30px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.555);
+}
+li {
+  float: left;
+  list-style: none;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+h4 {
+  margin-top: 20px;
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.692);
+  border-top: 2px solid grey;
+}
