@@ -1,5 +1,3 @@
-//console.log("Client side javascript file is loaded successfully!");
-
 const formData = document.querySelector("form");
 const search = document.querySelector("input");
 
