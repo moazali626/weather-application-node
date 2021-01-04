@@ -6,22 +6,28 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <h1>{{title}}</h1>
-    <p>{{> header}}</p>
-    <p>Use this site to get your weather</p>
-    
+
+    <div id="particles-js">
+
+   <div class="content">
+     <center><img src="/images/weather-logo.png"></center>
+
     <form>
       <div class="form-group">
-      <input class="form-control w-25" placeholder="Enter your location">
-            <button class="btn btn-primary" style="margin-top: 20px; margin-bottom: 10px">Search</button>
+      <input class="form-control input-mysize" id="input-style" placeholder="Search location, city, country...">
+           <center><button class="btn btn-primary " style="margin-top: 34px; margin-bottom: 10px">Search</button></center>
+            
       </div>
     </form>    
 
     <p id="message-1"></p>
     <p id="message-2"></p>
+    
+    </div>
 
-    <h4>{{> footer}}</h4>
-
-    <script src="/js/app.js"></script>
+    </div>
+    <script src="/js/main.js"></script>
+	  <script type="text/javascript" src="/js/particles.min.js"></script>
+	  <script type="text/javascript" src="/js/app.js"></script>
     </body>
 </html>

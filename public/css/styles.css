@@ -6,6 +6,7 @@ body {
   padding-left: 130px;
   padding-top: 50px;
   font-family: Arial;
+  background-color: black;
 }
 h1 {
   color: rgba(0, 0, 0, 0.74);
@@ -40,4 +41,22 @@ h4 {
   padding-top: 10px;
   color: rgba(0, 0, 0, 0.692);
   border-top: 2px solid grey;
+}
+#input-style {
+  width: 350px;
+}
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+p {
+  color: white;
+  margin-top: 15px;
+}
+.btn {
+  padding: 7px 20px 7px 20px;
+  font-size: 17px;
 }
